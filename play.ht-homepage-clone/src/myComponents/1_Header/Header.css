@@ -10,6 +10,9 @@
   padding: 22px 10vw;
 
   position: fixed;
+
+  top: 0px;
+  left: 0px;
 }
 .header-left-container {
   /* background-color: red; */
@@ -32,7 +35,7 @@
 
   align-items: center;
 
-  padding: 8px 16px;
+  padding: 7px 16px;
 
   border-radius: 30px;
 
@@ -47,11 +50,16 @@
   background-color: transparent;
 
   color: white;
+
+  font-family: -apple-system, BlinkMacSystemFont, SF Pro, SF Pro Display,
+    SF Pro Text, sans-serif;
 }
 .header-left-button:hover,
 .header-right-button-container:hover {
   background-color: #b4fd83;
   color: #000000;
+
+  cursor: pointer;
 }
 
 .header-image {
@@ -65,13 +73,20 @@
   align-items: center;
   justify-content: center;
 
-  transform: translateY(1.5px);
+  font-weight: 100;
+
+  transform: translateY(1px);
 }
 .header-playAI-icon {
   width: 113.025px;
   height: 36px;
   /* background-color: green; */
+
+  cursor: pointer;
 }
+/* .header-playAI-icon:hover {
+  background-color: #393c42;
+} */
 .header-left-button-container {
   /* background-color: aquamarine; */
 }
@@ -99,6 +114,8 @@
 
   display: none;
   color: white;
+
+  cursor: pointer;
 }
 @media screen and (max-width: 1290px) {
   .header {
