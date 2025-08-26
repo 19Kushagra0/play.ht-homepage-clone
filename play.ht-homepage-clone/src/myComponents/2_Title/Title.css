@@ -1,6 +1,5 @@
 .title {
   width: 100%;
-  height: 100vh;
   background-color: #000000;
   padding-top: 130px;
 
@@ -44,19 +43,23 @@
   font-weight: 400;
   letter-spacing: normal;
 }
+@media screen and (max-width: 990px) {
+  .title-heading {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 950px) {
   .title {
     padding-left: 3vw;
     padding-right: 3vw;
   }
-  .title-heading {
-    width: 100%;
-  }
+
   .title-discription {
     width: 100%;
   }
 }
-@media screen and (max-width: 659px) {
+@media screen and (max-width: 639.5px) {
   .title-heading {
     font-size: 36px;
     line-height: 36px;

@@ -1,0 +1,87 @@
+.fotter {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 90px;
+
+  background-color: black;
+
+  padding-left: 10vw;
+  padding-right: 10vw;
+
+  gap: 90px;
+}
+.fotter-top {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+
+  background-color: black;
+}
+
+.fotter-container {
+  display: flex;
+  flex-direction: column;
+
+  gap: 25px;
+
+  color: white;
+}
+.fotter-container span {
+  font-size: 14px;
+  line-height: 12px;
+  font-weight: 400;
+  letter-spacing: normal;
+  cursor: pointer;
+}
+.fotter-container h5 {
+  font-size: 14px;
+  line-height: 12px;
+  font-weight: 600;
+  letter-spacing: normal;
+  cursor: pointer;
+}
+@media screen and (max-width: 1290px) {
+  .fotter {
+    padding-left: clamp(16px, 3vw, 21px);
+    padding-right: clamp(16px, 3vw, 21px);
+  }
+}
+@media screen and (max-width: 500px) {
+  .fotter-top {
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 75px;
+  }
+  .fotter-container span,
+  .fotter-container h5 {
+    text-align: center;
+  }
+}
+.fotter-bottom {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+
+  justify-content: center;
+
+  color: white;
+
+  /* background-color: rebeccapurple; */
+  font-size: 12.8px;
+  line-height: 19.2px;
+  font-weight: 400;
+  letter-spacing: normal;
+
+  padding-bottom: 25px;
+}

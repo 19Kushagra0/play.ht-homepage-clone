@@ -13,6 +13,8 @@
 
   top: 0px;
   left: 0px;
+
+  z-index: 1;
 }
 .header-left-container {
   /* background-color: red; */
@@ -50,9 +52,6 @@
   background-color: transparent;
 
   color: white;
-
-  font-family: -apple-system, BlinkMacSystemFont, SF Pro, SF Pro Display,
-    SF Pro Text, sans-serif;
 }
 .header-left-button:hover,
 .header-right-button-container:hover {
