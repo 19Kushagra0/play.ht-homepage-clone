@@ -1,0 +1,24 @@
+.users {
+  width: 100%;
+  background-color: black;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+
+  padding-left: 40px;
+  padding-right: 40px;
+
+  flex-wrap: wrap;
+
+  gap: 1vw 3vw;
+
+  padding-top: 119px;
+  padding-bottom: 50px;
+}
+.user-image {
+  width: 200px;
+  height: 66px;
+  /* background-color: yellowgreen; */
+}

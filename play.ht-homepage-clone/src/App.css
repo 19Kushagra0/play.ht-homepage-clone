@@ -1,0 +1,14 @@
+.App {
+  font-family: -apple-system, BlinkMacSystemFont, SF Pro, SF Pro Display,
+    SF Pro Text, sans-serif;
+}
+button {
+  font-family: -apple-system, BlinkMacSystemFont, SF Pro, SF Pro Display,
+    SF Pro Text, sans-serif;
+
+  cursor: pointer;
+}
+textarea {
+  font-family: -apple-system, BlinkMacSystemFont, SF Pro, SF Pro Display,
+    SF Pro Text, sans-serif;
+}
