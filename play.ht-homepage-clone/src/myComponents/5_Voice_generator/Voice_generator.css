@@ -1,0 +1,259 @@
+.voice-generator,
+.Feature_2 {
+  width: 100%;
+  background-color: black;
+
+  padding-top: 60px;
+
+  color: white;
+  display: flex;
+  flex-direction: column;
+
+  gap: 40px;
+}
+
+.voice-generator-top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 20px;
+
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.voice-generator-heading {
+  font-family: sans-serif;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 750;
+  letter-spacing: -4px;
+
+  text-align: center;
+}
+
+.voice-generator-discription {
+  width: 685px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  text-align: center;
+
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 701px) {
+  .voice-generator-discription {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 639.5px) {
+  .voice-generator-heading {
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: normal;
+  }
+  .voice-generator-discription {
+    width: 100%;
+  }
+}
+
+/* ***************************************************** */
+
+.voice-generator-bottom {
+  width: 100%;
+
+  display: flex;
+  gap: 30px;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.voice-generator-box {
+  flex: 1;
+
+  min-width: 316px;
+
+  border-radius: 12px;
+
+  /* background-color: chocolate; */
+
+  display: flex;
+  flex-direction: row;
+
+  gap: 20px;
+
+  align-items: top;
+
+  padding-left: 21px;
+  padding-top: 29px;
+  padding-bottom: 39px;
+  padding-right: 21px;
+
+  border: 1px solid rgb(46, 46, 46);
+
+  max-width: 384px;
+}
+
+.voice-generator-left {
+  /* background-color: red; */
+  position: relative;
+  height: fit-content;
+}
+
+.voice-generator-left-image {
+  width: 100px;
+  height: 100px;
+}
+
+.voice-generator-left-button {
+  width: 36px;
+  height: 36px;
+  background-color: #b4fd83;
+  border-radius: 100px;
+
+  border: 3px solid black;
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+
+  bottom: 0px;
+  right: 0px;
+}
+
+.voice-generator-left-button:hover {
+  background-color: black;
+}
+
+.voice-generator-left-button:hover
+  .voice-generator-left-button-image
+  #Icon-Set-Filled {
+  fill: white;
+}
+
+.voice-generator-left-button-image {
+  width: 15px;
+  height: 15px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+
+  fill: black;
+
+  transform: translateX(1.5px);
+}
+
+.voice-generator-right {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+
+  gap: 5px;
+}
+
+.voice-generator-name {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: normal;
+}
+
+.voice-generator-name-discription {
+  padding-bottom: 5px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: normal;
+}
+
+.voice-generator-get-started {
+  /* width: fit-content; */
+  display: flex;
+  flex-direction: row;
+
+  gap: 7px;
+
+  align-items: center;
+
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  letter-spacing: normal;
+
+  background-color: transparent;
+  border: 0px;
+
+  color: white;
+}
+
+.voice-generator-right-image {
+  width: 17px;
+  height: 17px;
+  /* background-color: purple; */
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+}
+.voice-generator-box-invisible {
+  background-color: transparent;
+  border: 0px;
+  display: none;
+}
+@media screen and (max-width: 1290px) {
+  .voice-generator-bottom {
+    padding-left: clamp(16px, 3vw, 21px);
+    padding-right: clamp(16px, 3vw, 21px);
+  }
+  .voice-generator-box {
+    min-width: 309px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .voice-generator-box {
+    min-width: 270px;
+  }
+}
+@media screen and (max-width: 1023.5px) {
+  .voice-generator-box-invisible {
+    display: flex;
+  }
+  .voice-generator-box {
+    max-width: 1000px;
+    min-width: 325px;
+  }
+}
+@media screen and (max-width: 767.5px) {
+  .voice-generator-box {
+    min-width: 400px;
+    max-width: none;
+  }
+  .voice-generator-box-invisible {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .voice-generator-box {
+    min-width: 200px;
+  }
+}
