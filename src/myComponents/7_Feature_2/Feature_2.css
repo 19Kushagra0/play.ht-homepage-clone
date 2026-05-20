@@ -1,0 +1,132 @@
+.feature_2 {
+  width: 100%;
+  background-color: black;
+  padding-top: 200px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  /* gap: 40px; */
+}
+.feature_2-top {
+  padding-bottom: 60px;
+}
+.feature_2-description {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: normal;
+  padding-bottom: 0px;
+}
+.feature_2-box-invisible {
+  background-color: transparent !important;
+}
+@media screen and (max-width: 639.5px) {
+  .feature_2-description {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .feature_2-heading {
+    width: 100%;
+    padding-bottom: 0px;
+  }
+}
+.feature_2-top-bottom {
+  width: fit-content;
+
+  display: flex;
+  flex-direction: row;
+
+  gap: 70px;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+
+  padding-left: 8vw;
+  padding-right: 8vw;
+
+  /* background-color: chocolate; */
+}
+.feature_2-box {
+  max-width: 361px;
+  min-width: 361px;
+  height: fit-content;
+
+  /* background-color: darkmagenta; */
+
+  flex: 1;
+
+  gap: 10px;
+
+  display: flex;
+  flex-direction: column;
+}
+.feature_2-image {
+  width: 32px;
+  height: 32px;
+  /* background-color: red; */
+}
+.feature_2-heading {
+  color: white;
+  padding-bottom: 0px;
+}
+.feature_2-discription {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: normal;
+
+  color: #b3b3b3;
+}
+@media screen and (max-width: 1290px) {
+  .feature_2-top-bottom {
+    padding-left: clamp(16px, 3vw, 21px);
+    padding-right: clamp(16px, 3vw, 21px);
+  }
+
+  .feature_2-box {
+    max-width: 361px;
+
+    min-width: 278px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .feature_2-box {
+    min-width: 200px;
+  }
+}
+@media screen and (max-width: 1023.5px) {
+  .feature_2-box {
+    max-width: none;
+
+    min-width: 334px;
+  }
+  .feature_2-top-bottom {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .feature_2-box {
+    min-width: 300px;
+  }
+}
+@media screen and (max-width: 767.5px) {
+  .feature_2-box {
+    min-width: 400px;
+
+    text-align: center;
+
+    align-items: center;
+  }
+  .feature_2-box-invisible {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .feature_2-box {
+    min-width: 200px;
+  }
+}
