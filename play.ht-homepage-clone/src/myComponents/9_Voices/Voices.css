@@ -1,0 +1,113 @@
+.voices {
+  width: 100%;
+  background-color: black;
+  padding-top: 200px;
+  padding-left: 10vw;
+  padding-right: 8vw;
+}
+.voices-discription {
+  max-width: 1024px;
+}
+.voices-bottom {
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+
+  gap: 64px;
+}
+.voices-box {
+  min-width: 572px;
+  max-width: 582px;
+  /* background-color: red; */
+
+  flex: 1;
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+
+  gap: 28px;
+}
+.voices-box-invisible {
+  background-color: transparent;
+}
+
+@media screen and (max-width: 1290px) {
+  .voices {
+    padding-left: clamp(16px, 3vw, 21px);
+    padding-right: clamp(16px, 3vw, 21px);
+  }
+  .voices-box {
+    min-width: 426.4px;
+  }
+}
+@media screen and (max-width: 1023.5px) {
+  .voices-box {
+    min-width: 100%;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 639.5px) {
+  .voices-bottom {
+    gap: 16px;
+  }
+}
+
+.voices-box-button {
+  width: 65px;
+  height: 65px;
+  background-color: #b4fd83;
+
+  border-radius: 100px;
+  border: 0px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+.voices-box-playIcon {
+  width: 25px;
+  height: 25px;
+  fill: black;
+
+  transform: translateX(3px);
+}
+.voices-box-button:hover {
+  background-color: black;
+  border: 4px solid white;
+}
+.voices-box-button:hover .voices-box-playIcon #Icon-Set-Filled {
+  width: 25px;
+  height: 25px;
+
+  stroke: white;
+  fill: white;
+  color: white;
+}
+.voices-box-right-heading {
+  display: flex;
+  flex-direction: column;
+
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  letter-spacing: -1.5px;
+
+  font-family: sans-serif;
+
+  color: white;
+}
+.voices-box-right-discription {
+  max-width: 320px;
+
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+
+  color: #b3b3b3;
+}
