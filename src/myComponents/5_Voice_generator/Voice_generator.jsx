@@ -19,8 +19,8 @@ export default function Voice_generator() {
           <div className="voice-generator-left">
             <img
               className="voice-generator-left-image"
-              src="https://play.ht/_next/image/?url=%2Fassets%2Fimg%2Fanthony.webp&w=256&q=75"
-              alt=""
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+              alt="Mikael - AI Voice"
             />
             <button className="voice-generator-left-button">
               <PlayIcon className="voice-generator-left-button-image" />
@@ -44,8 +44,8 @@ export default function Voice_generator() {
           <div className="voice-generator-left">
             <img
               className="voice-generator-left-image"
-              src="https://play.ht/_next/image/?url=%2Fassets%2Fimg%2Farthur.webp&w=256&q=75"
-              alt=""
+              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face"
+              alt="Briggs - AI Voice"
             />
             <button className="voice-generator-left-button">
               <PlayIcon className="voice-generator-left-button-image" />
@@ -69,8 +69,8 @@ export default function Voice_generator() {
           <div className="voice-generator-left">
             <img
               className="voice-generator-left-image"
-              src="https://play.ht/_next/image/?url=%2Fassets%2Fimg%2Ffrankie.webp&w=256&q=75"
-              alt=""
+              src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
+              alt="Hubert - AI Voice"
             />
             <button className="voice-generator-left-button">
               <PlayIcon className="voice-generator-left-button-image" />
@@ -94,8 +94,8 @@ export default function Voice_generator() {
           <div className="voice-generator-left">
             <img
               className="voice-generator-left-image"
-              src="https://play.ht/_next/image/?url=%2Fassets%2Fimg%2Faaliyah.webp&w=256&q=75"
-              alt=""
+              src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face"
+              alt="Deedee - AI Voice"
             />
             <button className="voice-generator-left-button">
               <PlayIcon className="voice-generator-left-button-image" />
@@ -119,8 +119,8 @@ export default function Voice_generator() {
           <div className="voice-generator-left">
             <img
               className="voice-generator-left-image"
-              src="https://play.ht/_next/image/?url=%2Fassets%2Fimg%2Fpia.webp&w=256&q=75"
-              alt=""
+              src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face"
+              alt="Mamaw - AI Voice"
             />
             <button className="voice-generator-left-button">
               <PlayIcon className="voice-generator-left-button-image" />
@@ -144,8 +144,8 @@ export default function Voice_generator() {
           <div className="voice-generator-left">
             <img
               className="voice-generator-left-image"
-              src="https://play.ht/_next/image/?url=%2Fassets%2Fimg%2Fwaylon.webp&w=256&q=75"
-              alt=""
+              src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&fit=crop&crop=face"
+              alt="Conor - AI Voice"
             />
             <button className="voice-generator-left-button">
               <PlayIcon className="voice-generator-left-button-image" />
@@ -169,8 +169,8 @@ export default function Voice_generator() {
           <div className="voice-generator-left">
             <img
               className="voice-generator-left-image"
-              src="https://play.ht/_next/image/?url=%2Fassets%2Fimg%2Fcarmen.webp&w=256&q=75"
-              alt=""
+              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face"
+              alt="Mia - AI Voice"
             />
             <button className="voice-generator-left-button">
               <PlayIcon className="voice-generator-left-button-image" />
@@ -194,8 +194,8 @@ export default function Voice_generator() {
           <div className="voice-generator-left">
             <img
               className="voice-generator-left-image"
-              src="https://play.ht/_next/image/?url=%2Fassets%2Fimg%2Fleroy.webp&w=256&q=75"
-              alt=""
+              src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=150&h=150&fit=crop&crop=face"
+              alt="Atlas - AI Voice"
             />
             <button className="voice-generator-left-button">
               <PlayIcon className="voice-generator-left-button-image" />
@@ -219,8 +219,8 @@ export default function Voice_generator() {
           <div className="voice-generator-left">
             <img
               className="voice-generator-left-image"
-              src="https://play.ht/_next/image/?url=%2Fassets%2Fimg%2Fnavya.webp&w=256&q=75"
-              alt=""
+              src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&h=150&fit=crop&crop=face"
+              alt="Navya - AI Voice"
             />
             <button className="voice-generator-left-button">
               <PlayIcon className="voice-generator-left-button-image" />
@@ -244,3 +244,4 @@ export default function Voice_generator() {
     </div>
   );
 }
+

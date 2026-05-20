@@ -18,7 +18,15 @@
   padding-bottom: 50px;
 }
 .user-image {
-  width: 200px;
-  height: 66px;
-  /* background-color: yellowgreen; */
+  width: auto;
+  max-width: 140px;
+  height: 36px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+  opacity: 0.65;
+  transition: opacity 0.3s ease;
 }
+.user-image:hover {
+  opacity: 1;
+}
+
