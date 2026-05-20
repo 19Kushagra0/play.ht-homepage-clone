@@ -138,5 +138,3 @@ export default function Feature_2() {
   );
 }
 
-{
-}
